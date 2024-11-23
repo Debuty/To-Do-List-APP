@@ -1,0 +1,162 @@
+* {
+
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: Tahoma, Arial;
+}
+
+
+.Main_Div_All_App {
+
+  position: absolute;
+
+  left: 30%;
+
+  top: 20%;
+
+}
+
+.Input_And_Button {
+
+
+  display: flex;
+  gap: 10px;
+
+}
+
+.The_Button {
+
+  background-color: rgb(13, 92, 66);
+
+  color: aliceblue;
+
+  border-radius: 10px;
+
+  border-style: solid;
+
+  height: 31px;
+
+  cursor: pointer;
+}
+
+
+/* .Div_Of_Input {} */
+
+.The_input {
+
+  width: 400px;
+
+  border-radius: 10px;
+
+  padding: 5px;
+
+
+}
+
+.Div_Of_Plans {
+
+  background-color: rgb(9, 96, 67);
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  width: 400px;
+
+ transition: 0.3s;
+
+ opacity: 0;
+}
+
+.Div_Of_Plans_And_Menu {
+
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  transform: translate(70px,0px);
+}
+
+.Task {
+
+  background-color: rgb(6, 63, 8);
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  max-width: 80%;
+
+  margin-bottom: 5px;
+
+  color: white;
+
+  font-size: small;
+
+  flex: 1;
+cursor: pointer;
+}
+
+.The_Icon {
+
+
+  width: 40px;
+
+  cursor: pointer;
+
+}
+
+.done {
+
+  opacity: 0.5;
+}
+
+
+
+.Div_Of_Task_And_Button{
+
+display: flex;
+
+gap: 10px;
+
+}
+
+.The_Button_Of_Delete {
+
+  background-color: rgb(13, 92, 66);
+
+  color: aliceblue;
+
+  border-radius: 10px;
+
+border-style: solid;
+
+border-color:rgb(2, 39, 3);
+
+background-color: rgb(6, 63, 8);
+
+  height: 31px;
+
+  cursor: pointer;
+}
+
+
+.Restart{
+  background-color: rgb(13, 92, 66);
+
+  color: aliceblue;
+
+  border-radius: 10px;
+
+border-style: solid;
+
+border-color:rgb(2, 39, 3);
+
+background-color: rgb(6, 63, 8);
+
+  height: 31px;
+
+cursor: pointer;
+}
