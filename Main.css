@@ -6,7 +6,62 @@
 body {
 
   font-family: Tahoma, Arial;
+
+  
 }
+
+ @media(max-width: 700px){
+
+  .Main_Div_All_App {
+
+  transform: translate(-100px,0px);
+  }
+
+} 
+
+@media(max-width: 500px){
+
+  .Main_Div_All_App {
+
+  /* transform: translate(-100px,0px); */
+
+  width: 400px;
+
+  }
+
+} 
+
+@media(max-width: 430px){
+
+  .Main_Div_All_App {
+
+  /* transform: translate(-100px,0px); */
+
+  width: 350px;
+
+  }
+
+} 
+
+@media(max-width: 350px){
+
+  .Main_Div_All_App {
+
+   transform: translate(-90px,0px); 
+
+  width: 300px;
+
+
+
+  }
+
+} 
+
+
+/* @media(max-width: 700px){
+  
+
+} */
 
 
 .Main_Div_All_App {
@@ -17,6 +72,8 @@ body {
 
   top: 20%;
 
+
+
 }
 
 .Input_And_Button {
@@ -24,7 +81,7 @@ body {
 
   display: flex;
   gap: 10px;
-
+align-items: center;
 }
 
 .The_Button {
@@ -45,14 +102,22 @@ body {
 
 /* .Div_Of_Input {} */
 
+
+.Div_Of_Input{
+
+  flex: 1;
+
+}
+
+
 .The_input {
 
-  width: 400px;
 
   border-radius: 10px;
 
   padding: 5px;
 
+width: 100%;
 
 }
 
@@ -76,7 +141,9 @@ body {
   display: flex;
   gap: 10px;
   margin-top: 10px;
-  transform: translate(70px,0px);
+  
+
+
 }
 
 .Task {
@@ -156,7 +223,12 @@ border-color:rgb(2, 39, 3);
 
 background-color: rgb(6, 63, 8);
 
-  height: 31px;
+    height: 31px;
 
 cursor: pointer;
+width: 20%;
+
+  padding: 10px;
+padding-bottom: 30px;
+
 }
